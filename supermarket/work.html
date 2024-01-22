@@ -1,0 +1,186 @@
+<!-- work.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Work</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <!-- Font Awesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Include the navbar using JavaScript -->
+  </head>
+  <body>
+    <!-- Your work page content goes here -->
+    <script id="replace_with_navbar" src="navbar.js"></script>
+    <div class="container mt-5">
+      <div class="row">
+        <!-- Left Container with Title and Paragraph -->
+        <div class="col-md-6">
+          <h2>About us</h2>
+          <p>
+            Welcome to MerkaLuna, your premier supermarket in Valencia, Spain.
+            We are dedicated to providing our customers with the highest quality
+            products and exceptional service.
+          </p>
+          <p>
+            With a wide range of fresh produce, pantry essentials, and household
+            items, we strive to meet the diverse needs of our community. Visit
+            us today and experience the convenience and excellence that
+            MerkaLuna has to offer.
+          </p>
+        </div>
+
+        <!-- Right Container with Medium-sized Picture -->
+        <div class="col-md-6">
+          <img src="fruits.webp" class="img-fluid" alt="Medium-sized Picture" />
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="Cashier.png" class="img-fluid" alt="Medium-sized Picture" />
+        </div>
+        <div class="col-md-6">
+          <h2>Join our Team</h2>
+          <p>
+            We invite individuals with a passion for excellence to explore
+            exciting opportunities within our organization. Whether you are
+            interested in a role as a cashier, cleaner, storage helper, or
+            another integral position, we encourage you to connect with us
+            through the provided form.
+          </p>
+          <p>
+            Joining our team means becoming a valued member of our dynamic and
+            diverse family, where dedication and collaboration contribute to our
+            shared success. We sincerely look forward to the prospect of
+            welcoming you into our professional community. Your potential is
+            important to us, and we are excited about the possibilities that
+            working together can unfold.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <!-- Left Container with Title and Paragraph -->
+        <div class="col-md-6">
+          <h2>Work with us</h2>
+          <p>
+            We invite visionary business partners, affiliates, shareholders, and
+            brands to explore collaborative opportunities with our dynamic
+            supermarket. Whether you seek affiliations or wish to showcase your
+            products, we welcome connections that align with our commitment to
+            excellence.
+          </p>
+
+          <p>
+            Join us in fostering prosperous partnerships and innovating the
+            retail landscape. Connect with us through the form below, and let's
+            explore the possibilities together.
+          </p>
+        </div>
+
+        <!-- Right Container with Medium-sized Picture -->
+        <div class="col-md-6">
+          <img
+            src="business.jpg"
+            class="img-fluid"
+            alt="Medium-sized Picture"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- Contact form -->
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <h2>Contact Us</h2>
+
+          <form action="#" method="post">
+            <!-- Full Name -->
+            <div class="form-group">
+              <label for="fullName">Full Name:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="fullName"
+                name="fullName"
+                placeholder="Enter full name"
+                required
+              />
+            </div>
+
+            <!-- Email -->
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+                placeholder="Enter email"
+                required
+              />
+            </div>
+            <!-- Topic Dropdown -->
+            <div class="form-group">
+              <label for="topic">Select a Topic</label>
+              <select class="form-control" id="topic" name="topic">
+                <option value="" disabled selected>Topics</option>
+                <option value="business_affiliation">
+                  Business Affiliation
+                </option>
+                <option value="employee">Employee Inquiry</option>
+                <option value="remark">Remark or Feedback</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <!-- Content -->
+            <div class="form-group">
+              <label for="content">Content:</label>
+              <textarea
+                class="form-control"
+                id="content"
+                name="content"
+                rows="5"
+                placeholder="Enter your message"
+                required
+              ></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+          <!-- End of Contact Form -->
+        </div>
+      </div>
+    </div>
+    <script id="replace_with_footer" src="footer.js"></script>
+
+    <!-- Bootstrap JS and Popper.js CDN links (for Bootstrap functionality) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
